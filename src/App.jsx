@@ -27,7 +27,7 @@ import AccountSettings from "./pages/accounts/settings/AccountSettings";
 
 /* ================= AUTH ================= */
 import SignIn from "./pages/auth/SignIn";
-// import Signup from "./pages/auth/signup"; // ⛔ TEMP DISABLED
+
 
 import ForgotPassword from "./pages/auth/ForgotPassword";
 import ResetPassword from "./pages/auth/ResetPassword";
@@ -37,7 +37,7 @@ function App() {
     <Routes>
       {/* ============ AUTH (NO LAYOUT) ============ */}
       <Route path="/auth/sign-in" element={<SignIn />} />
-      {/* <Route path="/auth/sign-up" element={<Signup />} /> */} {/* ⛔ TEMP DISABLED */}
+      
       <Route path="/auth/forgot-password" element={<ForgotPassword />} />
       <Route path="/auth/reset-password" element={<ResetPassword />} />
 

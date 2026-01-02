@@ -144,7 +144,7 @@ export default function Sidebar({ open, setOpen }) {
       title: "Authentication",
       items: [
         { icon: LogIn, label: "Sign In", path: "/auth/sign-in" },
-        { icon: UserPlus, label: "Sign Up", path: "/auth/sign-up" },
+        { icon: UserPlus, label: "Sign Up" },
         { icon: KeyRound, label: "Forgot Password", path: "/auth/forgot-password" },
         { icon: ShieldAlert, label: "Reset Password", path: "/auth/reset-password" },
       ],
