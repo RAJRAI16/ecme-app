@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# junk downloaded assets
+world map_files/
+*.download
+saved_resource*.html
