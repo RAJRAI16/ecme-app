@@ -27,7 +27,8 @@ import AccountSettings from "./pages/accounts/settings/AccountSettings";
 
 /* ================= AUTH ================= */
 import SignIn from "./pages/auth/SignIn";
-import SignUp from "../src/pages/auth/Signup";
+import Signup from "./pages/auth/Signup";
+
 import ForgotPassword from "./pages/auth/ForgotPassword";
 import ResetPassword from "./pages/auth/ResetPassword";
 
